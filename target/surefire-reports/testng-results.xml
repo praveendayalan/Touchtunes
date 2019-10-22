@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="8" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34328" started-at="2019-10-22T02:35:04Z" finished-at="2019-10-22T02:35:38Z">
+    <groups>
+      <group name="HomePageTest">
+        <method signature="HomePageTest.TC_06_homePage_Validation()[pri:0, instance:com.touchtunes.test.HomePageTest@6093dd95]" name="TC_06_homePage_Validation" class="com.touchtunes.test.HomePageTest"/>
+      </group> <!-- HomePageTest -->
+      <group name="LandingPageTest">
+        <method signature="LandingPageTest.TC_01_landingPage_Validation()[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02]" name="TC_01_landingPage_Validation" class="com.touchtunes.test.LandingPageTest"/>
+        <method signature="LandingPageTest.TC_02_chechBoxValidation()[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02]" name="TC_02_chechBoxValidation" class="com.touchtunes.test.LandingPageTest"/>
+        <method signature="LandingPageTest.TC_03_ScrollandClick_Validation()[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02]" name="TC_03_ScrollandClick_Validation" class="com.touchtunes.test.LandingPageTest"/>
+        <method signature="LandingPageTest.TC_04_languageSelection_Validation()[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02]" name="TC_04_languageSelection_Validation" class="com.touchtunes.test.LandingPageTest"/>
+        <method signature="LandingPageTest.TC_05_doneBtn_Validation()[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02]" name="TC_05_doneBtn_Validation" class="com.touchtunes.test.LandingPageTest"/>
+      </group> <!-- LandingPageTest -->
+    </groups>
+    <test name="Test" duration-ms="34328" started-at="2019-10-22T02:35:04Z" finished-at="2019-10-22T02:35:38Z">
+      <class name="com.touchtunes.test.LandingPageTest">
+        <test-method status="PASS" signature="loadDriver()[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02]" name="loadDriver" is-config="true" duration-ms="18878" started-at="2019-10-22T02:34:45Z" finished-at="2019-10-22T02:35:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadDriver -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02]" name="initialize" is-config="true" duration-ms="217" started-at="2019-10-22T02:35:04Z" finished-at="2019-10-22T02:35:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02]" name="startTest" is-config="true" duration-ms="5" started-at="2019-10-22T02:35:04Z" finished-at="2019-10-22T02:35:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.touchtunes.test.LandingPageTest.TC_01_landingPage_Validation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="TC_01_landingPage_Validation()[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02]" name="TC_01_landingPage_Validation" duration-ms="19276" started-at="2019-10-22T02:35:04Z" description="TC01: Verify whether the app is launched and the landing page is validated" finished-at="2019-10-22T02:35:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_landingPage_Validation -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02]" name="endTestAndGetResult" is-config="true" duration-ms="0" started-at="2019-10-22T02:35:23Z" finished-at="2019-10-22T02:35:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_landingPage_Validation status=SUCCESS method=LandingPageTest.TC_01_landingPage_Validation()[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02]" name="startTest" is-config="true" duration-ms="1" started-at="2019-10-22T02:35:23Z" finished-at="2019-10-22T02:35:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.touchtunes.test.LandingPageTest.TC_02_chechBoxValidation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="TC_02_chechBoxValidation()[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02]" name="TC_02_chechBoxValidation" duration-ms="914" started-at="2019-10-22T02:35:23Z" description="TC02: Verify whether the user can unselect the hindi language in the landing screen" depends-on-methods="com.touchtunes.test.LandingPageTest.TC_01_landingPage_Validation" finished-at="2019-10-22T02:35:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_chechBoxValidation -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02]" name="endTestAndGetResult" is-config="true" duration-ms="0" started-at="2019-10-22T02:35:24Z" finished-at="2019-10-22T02:35:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_02_chechBoxValidation status=SUCCESS method=LandingPageTest.TC_02_chechBoxValidation()[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="TC_03_ScrollandClick_Validation()[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02]" name="TC_03_ScrollandClick_Validation" duration-ms="7510" started-at="2019-10-22T02:35:24Z" description="TC03: Verify whether the user can scroll down to the bottom and click the assamese language" depends-on-methods="com.touchtunes.test.LandingPageTest.TC_02_chechBoxValidation" finished-at="2019-10-22T02:35:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_ScrollandClick_Validation -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02]" name="startTest" is-config="true" duration-ms="0" started-at="2019-10-22T02:35:24Z" finished-at="2019-10-22T02:35:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.touchtunes.test.LandingPageTest.TC_03_ScrollandClick_Validation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02]" name="endTestAndGetResult" is-config="true" duration-ms="1" started-at="2019-10-22T02:35:32Z" finished-at="2019-10-22T02:35:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_03_ScrollandClick_Validation status=SUCCESS method=LandingPageTest.TC_03_ScrollandClick_Validation()[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02]" name="startTest" is-config="true" duration-ms="0" started-at="2019-10-22T02:35:32Z" finished-at="2019-10-22T02:35:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.touchtunes.test.LandingPageTest.TC_04_languageSelection_Validation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="TC_04_languageSelection_Validation()[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02]" name="TC_04_languageSelection_Validation" duration-ms="1981" started-at="2019-10-22T02:35:32Z" description="TC04: Verify whether the number of language selected satifsies the expected selection" depends-on-methods="com.touchtunes.test.LandingPageTest.TC_03_ScrollandClick_Validation" finished-at="2019-10-22T02:35:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_languageSelection_Validation -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02]" name="endTestAndGetResult" is-config="true" duration-ms="1" started-at="2019-10-22T02:35:34Z" finished-at="2019-10-22T02:35:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_04_languageSelection_Validation status=SUCCESS method=LandingPageTest.TC_04_languageSelection_Validation()[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02]" name="startTest" is-config="true" duration-ms="0" started-at="2019-10-22T02:35:34Z" finished-at="2019-10-22T02:35:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.touchtunes.test.LandingPageTest.TC_05_doneBtn_Validation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="TC_05_doneBtn_Validation()[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02]" name="TC_05_doneBtn_Validation" duration-ms="1951" started-at="2019-10-22T02:35:34Z" description="TC05: Verify whether the done button is clickable" depends-on-methods="com.touchtunes.test.LandingPageTest.TC_04_languageSelection_Validation" finished-at="2019-10-22T02:35:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_doneBtn_Validation -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02]" name="endTestAndGetResult" is-config="true" duration-ms="1" started-at="2019-10-22T02:35:36Z" finished-at="2019-10-22T02:35:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_05_doneBtn_Validation status=SUCCESS method=LandingPageTest.TC_05_doneBtn_Validation()[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+        <test-method status="PASS" signature="tearDownDriver()[pri:0, instance:com.touchtunes.test.LandingPageTest@6d4b1c02]" name="tearDownDriver" is-config="true" duration-ms="353" started-at="2019-10-22T02:35:38Z" finished-at="2019-10-22T02:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- com.touchtunes.test.LandingPageTest -->
+      <class name="com.touchtunes.test.HomePageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.touchtunes.test.HomePageTest@6093dd95]" name="initialize" is-config="true" duration-ms="91" started-at="2019-10-22T02:35:36Z" finished-at="2019-10-22T02:35:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="TC_06_homePage_Validation()[pri:0, instance:com.touchtunes.test.HomePageTest@6093dd95]" name="TC_06_homePage_Validation" duration-ms="2352" depends-on-groups="LandingPageTest" started-at="2019-10-22T02:35:36Z" description="TC06 Verify whether the application lands on the homepage" finished-at="2019-10-22T02:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06_homePage_Validation -->
+        <test-method status="PASS" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.touchtunes.test.HomePageTest@6093dd95]" name="startTest" is-config="true" duration-ms="0" started-at="2019-10-22T02:35:36Z" finished-at="2019-10-22T02:35:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.touchtunes.test.HomePageTest.TC_06_homePage_Validation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="endTestAndGetResult(org.testng.ITestResult)[pri:0, instance:com.touchtunes.test.HomePageTest@6093dd95]" name="endTestAndGetResult" is-config="true" duration-ms="1" started-at="2019-10-22T02:35:38Z" finished-at="2019-10-22T02:35:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_06_homePage_Validation status=SUCCESS method=HomePageTest.TC_06_homePage_Validation()[pri:0, instance:com.touchtunes.test.HomePageTest@6093dd95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestAndGetResult -->
+      </class> <!-- com.touchtunes.test.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
